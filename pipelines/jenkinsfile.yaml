@@ -1,0 +1,12 @@
+﻿pipeline:
+  agent any
+  stages:
+    - stage: "Checkout"
+      steps:
+        - script: echo "Clonando repositório..."
+    - stage: "Verificar Serviços"
+      steps:
+        - script: python scripts/verifica_servicos.py
+    - stage: "Gerar Log"
+      steps:
+        - script: python scripts/gera_logs.py

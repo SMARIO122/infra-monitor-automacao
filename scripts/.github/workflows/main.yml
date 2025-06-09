@@ -1,0 +1,28 @@
+﻿name: Verificação de automação
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  executa-verificacao:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧾 Clonando o repositório
+        uses: actions/checkout@v3
+
+      - name: 🐍 Configurando ambiente Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: 📦 Instalando dependências
+        run: |
+          pip install -r requirements.txt || echo "sem dependências extras"
+
+      - name: 🚀 Executando verificação de serviços
+        run: |
+          python scripts/verifica_servicos.py

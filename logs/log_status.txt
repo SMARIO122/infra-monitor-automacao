@@ -1,0 +1,9 @@
+[2025-06-09 16:08:16.502959] 🔍 Iniciando verificação de serviços...
+[2025-06-09 16:08:16.572727] Erro ao verificar nginx: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[2025-06-09 16:08:16.573608] ❌ nginx está inativo ou não encontrado.
+[2025-06-09 16:08:16.579530] Erro ao verificar docker: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[2025-06-09 16:08:16.580336] ❌ docker está inativo ou não encontrado.
+[2025-06-09 16:08:16.588032] Erro ao verificar cron: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[2025-06-09 16:08:16.589165] ❌ cron está inativo ou não encontrado.
+[2025-06-09 16:08:16.590905] ✅ Monitoramento finalizado.
+

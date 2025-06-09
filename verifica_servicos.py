@@ -1,4 +1,4 @@
-﻿import os
+﻿import os #importando bibliotecas
 import datetime
 
 servicos = ["nginx", "docker", "cron"]

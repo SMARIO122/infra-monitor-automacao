@@ -25,5 +25,5 @@ Este projeto monitora serviços como `Spooler`, `wuauserv`, `bits`, entre outros
 1. Clone o repositório:
 
 ```bash
-git clone git@github.com:seu-usuario/infra-monitor-automacao.git
+git clone git@github.com:SMARIO122/infra-monitor-automacao.git
 cd infra-monitor-automacao

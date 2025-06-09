@@ -1,5 +1,5 @@
 ﻿import os #importando bibliotecas
-import datetime
+import datetime #importando bibliotecas
 
 servicos = ["nginx", "docker", "cron"]
 log_file = "log_status.txt"
